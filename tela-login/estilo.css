@@ -1,0 +1,160 @@
+/* FORMATAÇÕES GERAIS */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: fontelogin;
+	src: url(StrangerBackInTheNight.ttf);
+}
+
+body {
+	background: url(imagens/fundo1400.jpg);
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+
+
+/* FORMATAÇÕES DO CONTAINER */
+
+#container {
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 766px;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+#tela-login {
+	background: rgba(0, 0, 0, 0.7);
+	width: 530px;
+	height: 766px;
+	position: relative;
+	margin-left: 815px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+#dados-login {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#dados-login h1 {
+	font-family: fontelogin;
+	font-weight: normal;
+	color: #808080;
+	font-size: 4em;
+	padding-bottom: 40px;
+}
+
+#dados-login label {
+	color: #808080;
+	font-size: 2.5em;
+	font-family: fontelogin;
+	letter-spacing: 1px;
+}
+
+#dados-login label.checkbox-agree {
+	color: #808080;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#dados-login input {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 40px;	
+	background: #4F4F4F;
+	border-radius: 5px;
+	border: 0 none;
+	border-bottom: 2px solid gray;
+	padding-left: 10px;
+	padding-top: 2px;
+	font-size: 1em;
+}
+
+#dados-login #checkbox-agree {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: -201px;
+	margin-right: -200px;
+	height: 20px;	
+	border-radius: 5px;
+	border: 0 none;
+	position: relative;
+	vertical-align: middle;
+	bottom: -2px;
+}
+
+#dados-login input.submit {
+	line-height: 1px;
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+	background-color: #B4EEB4;
+	width: 230px;
+	border-bottom: 2px solid #698B22;
+	cursor: pointer;
+	margin-left: 2px;
+	margin-right: 70px;
+}
+
+#dados-login input.submit:hover {
+	background: rgba(180, 238, 180, 0.7)
+}
+
+#dados-login a {
+	text-decoration: none;
+	color: #4F4F4F;
+	font-size: 1.2em;
+}
+
+#dados-login a:hover {
+	color: #698B69;
+	font-size: 1.5em;
+	transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+/* FORMATAÇÕES DO LOGO */
+
+#logo p {
+	font-family: fontelogin;
+	font-size: 7em;
+	letter-spacing: 2px;
+	display: flex;
+	margin-top: -500px;
+	margin-left: 280px;
+	color: white;
+	position: relative;
+	width: 300px;
+	height: 150px;
+}
+
+#logo span {
+	font-family: fontelogin;
+	font-size: 3em;
+	letter-spacing: 2px;
+	display: flex;
+	margin-top: -55px;
+	margin-left: 320px;
+	color: white;
+	position: relative;
+	width: 300px;
+	height: 150px;
+}
